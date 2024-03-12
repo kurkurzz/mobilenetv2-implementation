@@ -1,10 +1,10 @@
 import torch
 
-from model import Resnet34
+from model import MobileNetv2
 
 print(torch._C._get_default_device())
 
-resnet_model = Resnet34(num_classes=10)
+resnet_model = MobileNetv2(num_classes=10)
 
 print(resnet_model)
 
